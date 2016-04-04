@@ -53,7 +53,7 @@ import java.util.HashMap;
  */
 public class BottomBar extends FrameLayout implements View.OnClickListener, View.OnLongClickListener {
     private static final long ANIMATION_DURATION = 150;
-    private static final int MAX_FIXED_TAB_COUNT = 3;
+    private static final int MAX_FIXED_TAB_COUNT = 5;
 
     private static final String STATE_CURRENT_SELECTED_TAB = "STATE_CURRENT_SELECTED_TAB";
     private static final String STATE_BADGE_STATES_BUNDLE = "STATE_BADGE_STATES_BUNDLE";
